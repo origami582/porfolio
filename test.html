@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100vh;
+        }
+        .profile-section {
+            background-color: #8d0b1b;
+            width: 40%;
+            padding: 20px;
+            color: white;
+        }
+        .profile-section img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .profile-section h2 {
+            margin-top: 10px;
+        }
+        .profile-details, .contact {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .contact-info div {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info div img {
+            margin-right: 10px;
+        }
+        .profile-right {
+            width: 60%;
+            padding: 20px;
+            background-color: white;
+            color: black;
+        }
+        .profile-right h1 {
+            color: #8d0b1b;
+        }
+        .skills img {
+            width: 50px;
+            margin: 5px;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .section h2 {
+            color: #8d0b1b;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section (Profile Info) -->
+        <div class="profile-section">
+            <img src="profile-picture.jpg" alt="Profile Picture">
+            <h2>PROFILE</h2>
+            <div class="profile-details">
+                <p>ชื่อ: นาย นันทวัฒน์ พลเดช</p>
+                <p>ชื่อเล่น: โซต้า</p>
+                <p>วันเกิด: 3 ตุลาคม พ.ศ. 2549</p>
+                <p>สัญชาติ: ไทย</p>
+                <p>เชื้อชาติ: ไทย</p>
+                <p>ศาสนา: พุทธ</p>
+                <p>งานอดิเรก: เล่นกีตาร์ ตัดต่อคลิป เล่นเกม</p>
+            </div>
+            <h2>CONTACT</h2>
+            <div class="contact-info">
+                <div>
+                    <img src="email-icon.png" width="20" alt="Email Icon">
+                    <span>origami4312@gmail.com</span>
+                </div>
+                <div>
+                    <img src="facebook-icon.png" width="20" alt="Facebook Icon">
+                    <span>Nantawat Paladech</span>
+                </div>
+                <div>
+                    <img src="line-icon.png" width="20" alt="Line Icon">
+                    <span>origami582</span>
+                </div>
+                <div>
+                    <img src="phone-icon.png" width="20" alt="Phone Icon">
+                    <span>062-198-8465</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Section (Skills and Other Info) -->
+        <div class="profile-right">
+            <h1>PROFILE <span style="font-weight: normal;">ประวัติส่วนตัว</span></h1>
+
+            <div class="section skills">
+                <h2>MY SKILL</h2>
+                <img src="vscode-icon.png" alt="VS Code">
+                <img src="bootstrap-icon.png" alt="Bootstrap">
+                <img src="capcut-icon.png" alt="CapCut">
+                <img src="mmd-icon.png" alt="MMD">
+                <img src="photoshop-icon.png" alt="Photoshop">
+                <img src="xampp-icon.png" alt="XAMPP">
+            </div>
+
+            <div class="section">
+                <h2>LESSON PLAN</h2>
+                <p>แผนการเรียน: วิทยาศาสตร์และคณิตศาสตร์ (เทคโนโลยี)</p>
+                <p>เกรดเฉลี่ย 5 เทอม: 3.74</p>
+            </div>
+
+            <div class="section">
+                <h2>MY DREAM</h2>
+                <p>Programmer และ Web Developer</p>
+            </div>
+
+            <div class="section">
+                <h2>ACTIVITY</h2>
+                <p>- แข่งขันการเขียนภาษาคอมพิวเตอร์ "เหรียญเงิน"</p>
+                <p>- ได้รับทุนช้างเผือก</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
